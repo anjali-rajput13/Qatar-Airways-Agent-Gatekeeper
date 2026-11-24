@@ -1,0 +1,192 @@
+[
+  {
+    "timestamp": "2026-11-21 13:24:23",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "View Fares",
+    "amount_inr": 0.0,
+    "decision": "ALLOW",
+    "rule": "R2",
+    "reason": "Registered agent 'PriyaBot' is allowed to view flight fares. This is a read-only, non-monetary action."
+  },
+  {
+    "timestamp": "2026-11-21 13:24:23",
+    "customer_name": "John Doe",
+    "agent_name": "GhostBot",
+    "action": "Book Flight",
+    "amount_inr": 8000.0,
+    "decision": "BLOCK",
+    "rule": "R1",
+    "reason": "Agent 'GhostBot' is not registered for customer 'John Doe'. Unknown agents are blocked from all actions."
+  },
+  {
+    "timestamp": "2026-11-21 13:24:23",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "Book Flight",
+    "amount_inr": 15000.0,
+    "decision": "ASK CUSTOMER",
+    "rule": "R5",
+    "reason": "The booking amount ₹15,000 exceeds the ₹10,000 limit. Customer confirmation from Priya Sharma is required before proceeding."
+  },
+  {
+    "timestamp": "2026-11-21 13:24:23",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "Book Flight",
+    "amount_inr": 8000.0,
+    "decision": "ALLOW",
+    "rule": "R4",
+    "reason": "Agent 'PriyaBot' is registered and authorised to spend up to ₹10,000. The requested amount ₹8,000 is within the limit."
+  },
+  {
+    "timestamp": "2026-11-21 13:24:23",
+    "customer_name": "Rahul Mehta",
+    "agent_name": "RahulBot",
+    "action": "Book Flight",
+    "amount_inr": 5000.0,
+    "decision": "BLOCK",
+    "rule": "R7",
+    "reason": "Agent 'RahulBot' was revoked on 2026-11-21 13:24:23 and is permanently blocked from all actions."
+  },
+  {
+    "timestamp": "2026-11-21 13:24:23",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "Refund",
+    "amount_inr": 8000.0,
+    "decision": "ASK CUSTOMER",
+    "rule": "R6",
+    "reason": "The action 'Refund' requires explicit customer confirmation before it can be executed. Please contact Priya Sharma to approve."
+  },
+  {
+    "timestamp": "2026-11-21 13:28:41",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "View Fares",
+    "amount_inr": 0,
+    "decision": "ALLOW",
+    "rule": "R2",
+    "reason": "Registered agent 'PriyaBot' is allowed to view flight fares. This is a read-only, non-monetary action."
+  },
+  {
+    "timestamp": "2026-11-21 13:28:41",
+    "customer_name": "John Doe",
+    "agent_name": "GhostBot",
+    "action": "Book Flight",
+    "amount_inr": 8000,
+    "decision": "BLOCK",
+    "rule": "R1",
+    "reason": "Agent 'GhostBot' is not registered for customer 'John Doe'. Unknown agents are blocked from all actions."
+  },
+  {
+    "timestamp": "2026-11-21 13:28:41",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "Book Flight",
+    "amount_inr": 15000,
+    "decision": "ASK CUSTOMER",
+    "rule": "R5",
+    "reason": "The booking amount ₹15,000 exceeds the ₹10,000 limit. Customer confirmation from Priya Sharma is required before proceeding."
+  },
+  {
+    "timestamp": "2026-11-21 13:28:41",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "Book Flight",
+    "amount_inr": 8000,
+    "decision": "ALLOW",
+    "rule": "R4",
+    "reason": "Agent 'PriyaBot' is registered and authorised to spend up to ₹10,000. The requested amount ₹8,000 is within the limit."
+  },
+  {
+    "timestamp": "2026-11-21 13:28:41",
+    "customer_name": "Rahul Mehta",
+    "agent_name": "RahulBot",
+    "action": "Book Flight",
+    "amount_inr": 5000,
+    "decision": "BLOCK",
+    "rule": "R7",
+    "reason": "Agent 'RahulBot' was revoked on 2026-11-21 13:24:23 and is permanently blocked from all actions."
+  },
+  {
+    "timestamp": "2026-11-21 13:28:41",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "Refund",
+    "amount_inr": 8000,
+    "decision": "ASK CUSTOMER",
+    "rule": "R6",
+    "reason": "The action 'Refund' requires explicit customer confirmation before it can be executed. Please contact Priya Sharma to approve."
+  },
+  {
+    "timestamp": "2026-11-23 18:54:12",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "View Fares",
+    "amount_inr": 0,
+    "decision": "ALLOW",
+    "rule": "R2",
+    "reason": "Registered agent 'PriyaBot' is allowed to view flight fares. This is a read-only, non-monetary action."
+  },
+  {
+    "timestamp": "2026-11-23 18:54:12",
+    "customer_name": "John Doe",
+    "agent_name": "GhostBot",
+    "action": "Book Flight",
+    "amount_inr": 8000,
+    "decision": "BLOCK",
+    "rule": "R1",
+    "reason": "Agent 'GhostBot' is not registered for customer 'John Doe'. Unknown agents are blocked from all actions."
+  },
+  {
+    "timestamp": "2026-11-23 18:54:12",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "Book Flight",
+    "amount_inr": 15000,
+    "decision": "ASK CUSTOMER",
+    "rule": "R5",
+    "reason": "The booking amount ₹15,000 exceeds the ₹10,000 limit. Customer confirmation from Priya Sharma is required before proceeding."
+  },
+  {
+    "timestamp": "2026-11-23 18:54:12",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "Book Flight",
+    "amount_inr": 8000,
+    "decision": "ALLOW",
+    "rule": "R4",
+    "reason": "Agent 'PriyaBot' is registered and authorised to spend up to ₹10,000. The requested amount ₹8,000 is within the limit."
+  },
+  {
+    "timestamp": "2026-11-23 18:54:12",
+    "customer_name": "Rahul Mehta",
+    "agent_name": "RahulBot",
+    "action": "Book Flight",
+    "amount_inr": 5000,
+    "decision": "BLOCK",
+    "rule": "R7",
+    "reason": "Agent 'RahulBot' was revoked on 2026-11-21 13:24:23 and is permanently blocked from all actions."
+  },
+  {
+    "timestamp": "2026-11-23 18:54:12",
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "action": "Refund",
+    "amount_inr": 8000,
+    "decision": "ASK CUSTOMER",
+    "rule": "R6",
+    "reason": "The action 'Refund' requires explicit customer confirmation before it can be executed. Please contact Priya Sharma to approve."
+  },
+  {
+    "timestamp": "2026-11-23 20:58:21",
+    "customer_name": "Rahul Sharma",
+    "agent_name": "RahulSharmaBot",
+    "action": "Book Flight",
+    "amount_inr": 5000.0,
+    "decision": "BLOCK",
+    "rule": "R7",
+    "reason": "Agent 'RahulSharmaBot' was revoked on 2026-11-23 20:54:21 and is permanently blocked from all actions."
+  }
+]

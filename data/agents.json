@@ -1,0 +1,26 @@
+[
+  {
+    "customer_name": "Priya Sharma",
+    "agent_name": "PriyaBot",
+    "authorised": true,
+    "status": "active",
+    "registered_at": "2026-11-21 13:24:23",
+    "revoked_at": null
+  },
+  {
+    "customer_name": "Rahul Mehta",
+    "agent_name": "RahulBot",
+    "authorised": false,
+    "status": "revoked",
+    "registered_at": "2026-11-21 13:24:23",
+    "revoked_at": "2026-11-21 13:24:23"
+  },
+  {
+    "customer_name": "Rahul Sharma",
+    "agent_name": "RahulSharmaBot",
+    "authorised": false,
+    "status": "revoked",
+    "registered_at": "2026-11-23 18:34:18",
+    "revoked_at": "2026-11-23 20:54:21"
+  }
+]
